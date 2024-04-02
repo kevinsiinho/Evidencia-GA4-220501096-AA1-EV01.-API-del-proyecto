@@ -1,0 +1,11 @@
+POST http://localhost:5050/registrar HTTP/1.1 
+Content-Type: application/json
+    
+    {
+        "_id": 3,
+        "nombre": "Lina",
+        "n1": 100,
+        "n2": 100,
+        "n3": 100,
+        "resultado": 100
+    }

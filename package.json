@@ -1,0 +1,30 @@
+{
+  "name": "corte-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.8",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.7.0",
+    "mongose": "^0.0.2-security",
+    "multer": "^1.4.5-lts.1",
+    "parser": "^0.1.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^2.0.20"
+  }
+}
